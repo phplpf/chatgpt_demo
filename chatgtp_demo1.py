@@ -38,9 +38,8 @@ if __name__ == "__main__":
     #     reply = openai_replay(str(msg))
     #     print(reply)      
     #     time.sleep(1)
-    openai.organization = "org-H2jlEQchHrVpasVgjtHC9JOs"
-    # openai.api_key = "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"
-    openai.api_key = "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"
+    # openai.organization = "***********************"
+    # openai.api_key = "**********************************"
     model_list =  openai.Model.list()
     model_dict = {}
     for k, model in enumerate(model_list.data):
